@@ -1,0 +1,6 @@
+REAL PORTRAIT SETUP
+
+Place your portrait at:
+  public/farid-portrait.jpg
+
+The homepage is already configured to load this path. Use a high-resolution vertical portrait with your face clearly visible. No face has been generated or substituted.
