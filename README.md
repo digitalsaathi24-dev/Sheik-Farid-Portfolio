@@ -1,28 +1,33 @@
-# Sheik Farid Portfolio
+# Sheik Farid — Portfolio
 
-A responsive Next.js portfolio for Sheik Farid, based on the supplied resume and portrait.
+A responsive personal portfolio for Sheik Farid, focused on operations, customer experience, digital payments and practical digital projects.
+
+## Visual direction
+
+- Editorial black-and-white visual system with oversized name typography
+- Monochrome profile portrait and cinematic hero composition
+- Interactive pull-cord theme switch with dark and light modes
+- Animated intro, rotating professional role, marquee ticker and scroll reveals
+- Sections for about, expertise, selected work, experience, education and contact
 
 ## Run locally
 
-1. Install Node.js (LTS).
-2. Extract this ZIP.
-3. Open a terminal in this project folder.
-4. Run:
+```bash
+npm install
+npm run dev
+```
 
-   ```bash
-   npm install
-   npm run dev
-   ```
+Open http://localhost:3000.
 
-5. Visit http://localhost:3000
+## Build
 
-## Included assets
+```bash
+npm run build
+```
 
-- `public/profile.jpg` — supplied profile photo
-- `public/sheik-farid-resume.pdf` — supplied resume
+## Personal assets
 
-## Edit content
+- `public/profile.jpg` — profile photo
+- `public/sheik-farid-resume.pdf` — resume
 
-Update `src/data/portfolio.ts` to change profile details, skills, experience or projects.
-
-The design uses CSS and native browser features; no additional animation library is required.
+Edit profile content in `src/data/portfolio.ts`.
