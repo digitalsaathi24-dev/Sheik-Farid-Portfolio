@@ -35,7 +35,7 @@ export default function PortfolioHome() {
       <a className="brand" href="#top"><img className="brand-mark" src={profile.photo} alt="Sheik Farid"/><span>SHEIK FARID<small>OPERATIONS · CUSTOMER EXPERIENCE</small></span></a>
       <button className="menu" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation">{menuOpen ? "×" : "☰"}</button>
       <nav className={menuOpen ? "nav nav-open" : "nav"}>{nav.map(([label, href]) => <a key={href} href={href} onClick={() => setMenuOpen(false)}>{label}</a>)}</nav>
-      <div className="header-actions"><button className="theme-toggle" onClick={toggleTheme} aria-label="Switch color theme"><span className="theme-cord">◉</span>{theme === "dark" ? "LIGHT MODE" : "DARK MODE"}</button><a className="nav-cta" href="#contact">Let&apos;s talk <span>↗</span></a></div>
+      <div className="header-actions"><button className="theme-toggle" onClick={toggleTheme} aria-label="Switch color theme"><span className="theme-cord"><i /></span><span>{theme === "dark" ? "LIGHT MODE" : "DARK MODE"}</span></button><a className="nav-cta" href="#contact">Let&apos;s talk <span>↗</span></a></div>
     </header>
 
     <section className={`hero wrap ${visible ? "hero-ready" : ""}`}>
@@ -52,7 +52,7 @@ export default function PortfolioHome() {
         <div className="portrait-backdrop"></div>
         <div className="portrait-card"><img src={profile.photo} alt="Sheik Farid portrait"/><div className="portrait-label"><img className="sf-photo-label" src={profile.photo} alt="Sheik Farid"/><span>REAL PERSON. REAL WORK.</span></div></div>
         <div className="float-card float-top"><span className="float-icon">✳</span><span>People first<br/><b>Always.</b></span></div>
-        <div className="float-card float-bottom"><b>6+</b><span>Years of varied<br/>work experience</span></div>
+        <div className="float-card float-bottom"><b>2019</b><span>Career journey<br/>begins</span></div>
         <div className="portrait-caption">01 / THE PERSON BEHIND THE WORK</div>
       </div>
       <div className="hero-bottom"><span>CUSTOMER EXPERIENCE</span><span>OPERATIONS</span><span>DIGITAL PAYMENTS</span><span>CONTINUOUS LEARNING</span></div>
