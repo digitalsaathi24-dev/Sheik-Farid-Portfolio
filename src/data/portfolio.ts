@@ -57,8 +57,8 @@ export const experience = [
 ];
 
 export const projects = [
-  { name: "BillHub", type: "Digital payments · Professional experience", description: "Customer support across recharge and bill-payment journeys, transaction issues, refunds and payment disputes.", tag: "BH" },
-  { name: "WholesaleKart", type: "E-commerce · Flutter concept", description: "An e-commerce app concept focused on a simple, user-friendly shopping experience.", tag: "WK" },
-  { name: "PosterCraft", type: "Creative technology · Next.js", description: "A poster-design platform concept exploring editable templates and visual creation workflows.", tag: "PC" },
-  { name: "Staff Operations Dashboard", type: "Operations · Dashboard concept", description: "A multi-company staff-management concept for deployment, attendance, shifts and replacements.", tag: "SD" }
+  { name: "Hexcore Unisex Gym", type: "Next.js · Supabase · Gym operations", description: "A gym management system concept covering member records, memberships and payments, attendance, staff management, reports and operational workflows.", tag: "HG" },
+  { name: "JobMitra", type: "Next.js · Job discovery platform", description: "A job discovery platform project focused on helping people explore job opportunities through a simple, accessible interface.", tag: "JM" },
+  { name: "Staff Operations Dashboard", type: "Operations · Workforce management", description: "A multi-company staff operations concept for employee deployment, attendance, shift timings and replacement tracking.", tag: "OD" },
+  { name: "BillHub Operations", type: "Fintech · Customer experience", description: "Hands-on operational experience supporting digital payments, recharges, bill payments, transaction investigations and customer disputes.", tag: "BH" }
 ];
